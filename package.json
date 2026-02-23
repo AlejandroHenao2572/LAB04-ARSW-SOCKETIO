@@ -1,0 +1,25 @@
+{
+  "name": "blueprints-socket-gateway",
+  "version": "1.0.0",
+  "description": "Gateway Socket.IO para Blueprints — puente en tiempo real entre React y Spring Boot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "NODE_ENV=development nodemon server.js"
+  },
+  "author": "arquitecto-gateway",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,62 @@
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build / output
+dist/
+build/
+
+# Optional npm cache
+.npm/
+
+# dotenv files
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Misc
+*.tgz
+*.gz
+
+# OneDrive temporary files
+~$*
+
+# Yarn
+yarn-error.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Mac system files
+.DS_Store
+
+# Windows thumbs
+ehthumbs.db
+
+# Lock files (keep package-lock.json in repo if desired)
+# If you prefer not to track lockfile, uncomment the next line
+# package-lock.json
